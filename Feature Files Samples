@@ -1,0 +1,25 @@
+Feature: Sell Shares from User Portfolio
+
+  Scenario: Verify calculation of prices per share, quantity, and total sales amount
+    
+    Given the user has shares in their portfolio with the following details:
+      | Ticker | Quantity | Price per Share |
+      | AAPL   | 50       | 150             |
+      | TSLA   | 30       | 700             |
+
+    When the user decides to sell a portion of their shares
+      | Ticker | Quantity to Sell |
+      | AAPL   | 20               |
+      | TSLA   | 10               |
+
+    Then the system should update the user's portfolio to show the remaining shares
+      | Ticker | Remaining Quantity |
+      | AAPL   | 30                 |
+      | TSLA   | 20                 |
+
+    And the system should calculate the total sales amount correctly as follows:
+      | Ticker | Quantity Sold | Price per Share | Total Sales Amount |
+      | AAPL   | 20            | 150             | 3000               |
+      | TSLA   | 10            | 700             | 7000               |
+
+    And the system should display the total sales amount as $10,000
