@@ -1,0 +1,35 @@
+Shares
+When you sell shares, the sale price of the lot is calculated by multiplying the number of shares by the market price per share at the time of the sale, and then subtracting any applicable fees (e.g., brokerage commissions).
+
+Formula:
+
+Sale Price = ( Number of Shares × Market Price per Share ) − Fees 
+
+Bonds
+For bonds, the sale price of a lot is calculated by multiplying the face value of the bond by the sale price expressed as a percentage of the face value, and then subtracting any fees.
+
+Formula:
+
+Sale Price = (Face Value × Sale Price Percentage 100 )  − Fees
+
+Mutual Funds
+When you sell mutual fund shares, the sale price of the lot is calculated by multiplying the number of shares by the Net Asset Value (NAV) per share at the time of the sale, and then subtracting any fees.
+
+Formula: Sale Price = (Number of Shares × NAV per Share ) − Fees
+
+Example Calculations
+Shares
+
+If you sell 100 shares at a market price of $55 per share with a $10 fee:
+
+Sale Price = (100×55)−10 = 5500−10 = 5490
+
+Bonds
+If you sell a bond with a face value of $1000 at 101% of its face value with a $15 fee:
+
+Sale Price = (1000 ×1.01)−15 = 1010−15 = 995
+
+Mutual Funds
+
+If you sell 300 mutual fund shares at an NAV of $45 per share with a $20 fee:
+Sale Price = ( 300×45 )− 20 = 13500 −20 = 13480
